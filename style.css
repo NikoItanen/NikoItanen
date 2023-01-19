@@ -1,0 +1,108 @@
+#tausta {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    object-fit:contain;
+    background-size: auto;
+    z-index: -1;
+}
+
+table,
+td {
+    border: 1px solid #000;
+    background-color: rgb(20, 20, 20);
+    margin: 8px;
+}
+th {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(20, 20, 20);
+    margin: 8px;
+}
+
+thead,
+tfoot {
+    width: 300px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(190, 190, 190);
+}
+
+.profile {
+    border: 1px solid #000;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    background-color: rgb(201, 201, 201);
+    border: 1px solid #000;
+}
+
+label {
+    padding-right: 10px;
+}
+
+h1 {
+    background-color: rgb(20, 20, 20);
+    color: rgb(190, 190, 190);
+    border: 1px solid #000;
+    text-align:justify;
+    opacity:0.40;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    color: rgb(190, 190, 190);
+    margin: 0px;
+}
+
+b.kissa {
+    color: blue;
+}
+
+.nappula {
+    background-color: grey;
+    color: white;
+}
+
+h2.bio {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid black;
+    background-size: contain;
+    opacity: 0.60;
+    padding-left: 10px;
+    padding-right: 10;
+    display: inline;
+}
+
+h2.guestbook {
+    background-color: rgb(121, 121, 121);
+    border: 1px solid black;
+    max-width: 175px;
+}
+
+p {
+    margin: 8px;
+    color:rgb(30, 30, 30);
+}
+
+ul {
+    color-scheme: 2;
+}
+h2.links {
+    text-align: justify;
+    display: inline-grid;
+    offset-inline-start: 1%;
+}
+tbody {
+    color: ;
+}
